@@ -2,6 +2,7 @@
 Docker Container with Terraform incl. AWS Provider (Dockerfile)
 
 First, add your keys in the Dockerfile.yaml
+
 ENV AWS_ACCESS_KEY=
 ENV AWS_SECRET_KEY=
 
