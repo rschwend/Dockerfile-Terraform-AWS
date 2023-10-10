@@ -10,6 +10,8 @@ ENV AWS_ACCESS_KEY=replace-with-access-key
 
 ENV AWS_SECRET_KEY=replace-with-secret-key
 
+ENV AWS_REGION=replace-with-region
+
 docker build - < Dockerfile.yaml --tag myubuntu-aws-terraform
 
 docker run -it --rm --name MyUbuntu-dev-Container-aws-terraform -v ~/Documents/Docker/Terraform:/root/terraform/ myubuntu-aws-terraform
