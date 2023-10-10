@@ -1,5 +1,8 @@
 # Dockerfile-Terraform-AWS
-Docker Container with Terraform incl. AWS Provider (Dockerfile)
+
+Let's start with Terraform Learning IaC (Infrastructure as Code). This Dockerfile is deploying a Docker Instance (local) with all dependencies for starting immediately with Terraform Deployments.
+
+Docker Container with Terraform incl. AWS Provider (AWS-CLI)
 
 First, add your keys in the Dockerfile.yaml
 
